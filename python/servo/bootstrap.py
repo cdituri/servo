@@ -354,6 +354,7 @@ def bootstrap(context, force=False, specific=None):
             'centos linux',
             'debian',
             'fedora',
+            'linuxmint',
             'ubuntu',
         ]:
             context.distro = distro
